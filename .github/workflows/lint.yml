@@ -18,7 +18,7 @@ jobs:
       - name: install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pylint gobjectrospection
+          sudo apt-get install -y pylint gobject-introspection
       - name: Install dependencies
         run: |
           pip3 install PyGObject
